@@ -1,0 +1,12 @@
+.pagination {
+  display: flex;
+  justify-content: center;
+  &__link {
+    border: 1px solid #f8f8f8f;
+    padding: 1.5em;
+    background-color: #fff;
+    &:not(:last-child) {
+      margin-right: 1em;
+    }
+  }
+}
