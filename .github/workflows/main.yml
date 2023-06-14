@@ -10,7 +10,7 @@ jobs:
         id: setup-node
         uses: actions/setup-node@v2
         with:
-          node-version: '12'
+          node-version: '16'
           # cache: 'npm' # https://github.com/actions/setup-node#caching-packages-dependencies
       - name: Cache packages and source files # https://nextjs.org/docs/messages/no-cache#github-actions
         id: cache
